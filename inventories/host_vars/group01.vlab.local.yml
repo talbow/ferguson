@@ -1,0 +1,9 @@
+# variables specific to host
+ansible_port: 5985
+ansible_connection: winrm
+ansible_winrm_transport: ntlm 
+ansible_user:  'domain\administrator'
+ansible_password: "P@ssw0rd1!"
+ansible_become_user: 'domain\administrator'
+ansible_user_pass: "P@ssw0rd1!"
+HostSpecificDIR: "\\\\WIN-NET-COMPNAME\\Application\\HostSpecificDirectory"

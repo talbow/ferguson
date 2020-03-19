@@ -1,0 +1,10 @@
+ansible_port: 5985
+ansible_connection: winrm
+ansible_winrm_transport: ntlm 
+ansible_user:  'domain\administrator'
+ansible_password: "P@ssw0rd1!"
+ansible_become_user: 'domain\administrator'
+ansible_user_pass: "P@ssw0rd1!"
+CertDIR: "\\\\WIN-NET-COMPNAME\\Application\\Certificates"
+InstallationMediaDIR: "\\\\WIN-NET-COMPNAME\\Application\\Media"
+InstallationTempDIR: "{{ansible_env.TEMP}}\\Application_Install" 
