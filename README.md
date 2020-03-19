@@ -12,13 +12,13 @@ host file as well as variables on the group and host levels provided as samples.
 Solid Ansible documentation from the vendor:
 
 ```
-### Best Practices
+Best Practices
 https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html
 
-### Roles
+Roles
 https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
 
-### uri module
+uri module
 https://docs.ansible.com/ansible/latest/modules/uri_module.html
 
 ```
