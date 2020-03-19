@@ -7,6 +7,8 @@ Quick examples of using RESTful calls within Ansible leveraging the uri: module.
 Code utilizes Ansible roles, adding reusability and flexability when designing new systems.  Example Ansible inventory 
 host file as well as variables on the group and host levels provided as samples.
 
+RESTful example is found in Ansible plabyook:  playbooks/roles/storage_task01/tasks/storage_tasks_01.yml
+
 ### Links
 
 Solid Ansible documentation from the vendor:
